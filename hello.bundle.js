@@ -68,10 +68,11 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(1); //把world.js导入进来
-__webpack_require__(2); //导入CSS文件
+__webpack_require__(2); //导入CSS文件,我们要给它指定一个css-loader才能正确解析CSS
 function hello(str){
     alert(str);
 }
+hello('hello world');
 
 /***/ }),
 /* 1 */
@@ -89,7 +90,7 @@ function world(){
 
 exports = module.exports = __webpack_require__(3)(false);
 // Module
-exports.push([module.i, "html, body {\n    padding: 0;\n    margin: 0;\n}", ""]);
+exports.push([module.i, "html, body {\n    padding: 0;\n    margin: 0;\n}\nbody {\n    background-color: red;\n}", ""]);
 
 
 
