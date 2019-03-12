@@ -72,7 +72,7 @@ __webpack_require__(2); //导入CSS文件,我们要给它指定一个css-loader�
 function hello(str){
     alert(str);
 }
-hello('hello world1112212');
+hello('hello world111221212222!!!!2');
 
 /***/ }),
 /* 1 */
