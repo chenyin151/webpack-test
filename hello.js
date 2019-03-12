@@ -3,4 +3,4 @@ require('./style.css'); //导入CSS文件,我们要给它指定一个css-loader�
 function hello(str){
     alert(str);
 }
-hello('hello world');
+hello('hello world1112212');
